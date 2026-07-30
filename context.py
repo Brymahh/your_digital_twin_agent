@@ -13,7 +13,7 @@ with open("data/summary.txt", "r", encoding='utf-8') as f:
     summary = f.read()
 
 
-TWIN_SYSTEM_PROMPT = f"""
+SYSTEM_PROMPT = f"""
 
 # Your role
 
